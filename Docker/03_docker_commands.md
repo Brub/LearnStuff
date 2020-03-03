@@ -15,3 +15,8 @@ then the image will first be downloaded
 this command will stop a comtainer
 
         docker stop <dockerName or dockerId>
+
+## rm
+the command will remove a contailer
+
+        docker rm <dockerName>
