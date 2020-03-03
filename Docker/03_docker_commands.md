@@ -25,3 +25,13 @@ the command will remove a contailer
 the command will list all the images of the host
 
         docker images
+
+## pull
+this command will download an image
+
+        docker pull <image>
+
+## rmi
+this command will remove an image
+
+        docker rmi <imageId>
