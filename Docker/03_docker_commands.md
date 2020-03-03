@@ -11,3 +11,7 @@ The run command is to run a container frim an image. If the image is not availab
 then the image will first be downloaded
 
     docker run <image>
+## stop
+this command will stop a comtainer
+
+        docker stop <dockerName or dockerId>
