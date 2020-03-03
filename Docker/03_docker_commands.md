@@ -20,3 +20,8 @@ this command will stop a comtainer
 the command will remove a contailer
 
         docker rm <dockerName>
+
+## images
+the command will list all the images of the host
+
+        docker images
