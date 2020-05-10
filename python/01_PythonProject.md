@@ -13,3 +13,29 @@ This is a guidline when creating a Python project
 
 # other info
 [https://www.youtube.com/watch?v=Kg1Yvry_Ydk](https://www.youtube.com/watch?v=Kg1Yvry_Ydk)
+
+# Project structure
+```
+projectname
+|-- LICENSE
+|-- README.md
+|-- TODO.md
+|-- docs
+|   |-- conf.py
+|   |-- generated
+|   |-- index.rst
+|   |-- installation.rst
+|   |-- modules.rst
+|   |-- quickstart.rst
+|   |-- projectname.rst
+|-- requirements.txt
+|-- projectname
+|   |-- __init__.py
+|   |-- exeption.py
+|   |-- model.py
+|   |-- projectname.py
+|   |-- test
+|       |-- models.py
+|       |-- test_projectname.py
+|-- setup.py
+```
