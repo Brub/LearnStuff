@@ -16,26 +16,26 @@ This is a guidline when creating a Python project
 
 # Project structure
 ```
-projectname
-|-- LICENSE
-|-- README.md
-|-- TODO.md
-|-- docs
-|   |-- conf.py
-|   |-- generated
-|   |-- index.rst
-|   |-- installation.rst
-|   |-- modules.rst
-|   |-- quickstart.rst
-|   |-- projectname.rst
-|-- requirements.txt
-|-- projectname
-|   |-- __init__.py
-|   |-- exeption.py
-|   |-- model.py
-|   |-- projectname.py
-|   |-- test
-|       |-- models.py
-|       |-- test_projectname.py
-|-- setup.py
+projectname                              # 
+|-- LICENSE                              # 
+|-- README.md                            # 
+|-- TODO.md                              # 
+|-- docs                                 # 
+|   |-- conf.py                          # 
+|   |-- generated                        # 
+|   |-- index.rst                        # 
+|   |-- installation.rst                 # 
+|   |-- modules.rst                      # 
+|   |-- quickstart.rst                   # 
+|   |-- projectname.rst                  # 
+|-- requirements.txt                     # 
+|-- projectname                          # code of the project self lives here
+|   |-- __init__.py                      # Any directory with an __init__.py file is considered a Python package
+|   |-- exeption.py                      #
+|   |-- model.py                         #
+|   |-- projectname.py                   #
+|   |-- tests                            #
+|       |-- models.py                    #
+|       |-- test_projectname.py          #
+|-- setup.py                             # used for distributing packages
 ```
