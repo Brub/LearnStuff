@@ -2,10 +2,22 @@
 This is a guidline when creating a Python project
 
 1. create a folder for the project
-2. create a venv in this folder
-3. activate the venv
-	1. update the pip version
-	2. install the necessary packages for the project
+2. create a venv in this folder   
+```
+python3 -m venv venv
+```
+3. activate the venv  
+```
+source venv/bin/activate
+```
+	1. update the pip version  
+	```
+	pip install --upgrade pip
+	```
+	2. install the necessary packages for the project  
+	```
+	pip install xxx
+	```
 	3. create a requirements.txt file  
 	pip freeze > requirements.txt  
 3. create the other files of the project (!!!! plaats deze nooit in de venv)
