@@ -21,6 +21,9 @@ Use one statement per line
 Top-level function and classes are separated by two blank lines.  
 Method definitions inside classes should be separated by one blank line.
 
+## Class names
+By convention, class names use CamelCase.
+
 ## Source File Encoding
 Python 3, UTF-8 is the default source encoding.  
 Python 2, ASCII is the default source encoding.
