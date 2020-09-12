@@ -5,7 +5,9 @@ Via dit commando kan je de status bekijken van het project.
 ```
 git status
 ```  
-De info die je nu terug krijgt zullen we in de volgende secties bespreken.
+Nu worden er 2 soorten info afgebeeld:  
+* de naam van de branch op dewelke je aan het werken bent
+* de status van de branch, dit wordt uitgelegd in de volgende onderdelen
 
 ## Untracked files
 Deze melding wordt getoond als je nieuwe bestanden hebt toegevoegd aan het project maar die nog niet beheerd worden door git.
