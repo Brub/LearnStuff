@@ -18,3 +18,14 @@ Date:   Sat Sep 12 16:22:12 2020 +0200
 
     nieuw bestand info.txt toegevoegd
 ```
+## --oneline
+Met deze optie krijg je een korter overzicht
+```
+git log --oneline
+```
+
+voorbeeld:
+```
+29336ff (HEAD -> master) exta info toegevoegd aan het info.txt bestand
+e0ba7b6 nieuw bestand info.txt toegevoegd
+```
