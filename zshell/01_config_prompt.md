@@ -7,7 +7,7 @@ There are a lot of option that can be used, they stars all with a %
 example:
 
 ```
-PROMPT='%n@%m %2~ %# '
+PROMPT='%(?.%F{green}✅.%F{red}❌%?)%f [%B%K{221}%F{52}%~%f%k%b] '
 ```
 
 
