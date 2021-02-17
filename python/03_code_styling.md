@@ -24,6 +24,9 @@ Method definitions inside classes should be separated by one blank line.
 ## Class names
 By convention, class names use CamelCase.
 
+## Constants
+Constants are usually defined on a module level and written in all capital letters with underscores separating words. Examples include MAX_OVERFLOW
+
 ## Source File Encoding
 Python 3, UTF-8 is the default source encoding.  
 Python 2, ASCII is the default source encoding.
