@@ -41,8 +41,11 @@ In our case, they allow basic matching of elements according to simple criteria.
 What's really useful about predicate strings is that you can combine simple criteria to form more complex matches. 
 In the XCUITest driver, predicate strings can be used to match various element attributes, including name, value, label, type, visible, etc...
 
-Example:
-`selector == 'XCUIElementTypeButton' AND value BEGINSWITH[c] 'bla' AND visible == 1`
+Examples:
+`"type == 'XCUIElementTypeCell'"`
+`"type == 'XCUIElementTypeButton' AND name == 'Open'"`
+
+https://github.com/facebookarchive/WebDriverAgent/wiki/Predicate-Queries-Construction-Rules
 
 Because predicate matching is built into XCUITest, it has the potential to be much faster than Appium's XPath strategy.
 
@@ -51,6 +54,8 @@ Because predicate matching is built into XCUITest, it has the potential to be mu
 This was developed by the Appium team to meet the need of hierarchical queries in a more performant way. 
 The types of queries possible via the class chain strategy are not as powerful as those enabled by XPath, but this restriction means a better performance guarantee (this is because it is possible to map class chain queries into a series of direct XCUITest calls, rather than having to recursively build an entire UI tree). 
 Class chain queries look very much like XPath queries, however the only allowed filters are basic child/descendant indexing or predicate string matching.
+
+Examples can be found here https://github.com/facebookarchive/WebDriverAgent/wiki/Class-Chain-Queries-Construction-Rules
 
 ### XPath
 > With the XCUITest driver, it can also be a horrible idea because XPath might be very slow.
