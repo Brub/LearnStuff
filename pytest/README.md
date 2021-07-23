@@ -14,6 +14,7 @@ pytest -V
 ```
 
 ## Install pytest
+!!! try always to use a venv
 ```
 pip install -U pytest
 ```
