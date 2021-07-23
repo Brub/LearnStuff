@@ -22,17 +22,7 @@ pip install -U pytest
 a test file need to start with test_  
 a test method need to start with test_  
 
-## run the tests
-
-### run all tests
-the following command will execute all the tests from the cullent directory + all sub directories
-```python
-pytest
-```
-### run a specific test
-```python
-pytest -k test_scenario_1
-```
+* [Run tests](run_tests.md)
 
 
 
