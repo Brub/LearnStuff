@@ -1,8 +1,7 @@
-# Git config
+# Git settings
 
 Git heeft een globale git config file en voor elke repo een locale config file.
 
-## Hoe de configuratie bekijken?
+## check your settings
 
-`git config --list`
-
+type `git config --list` + enter
